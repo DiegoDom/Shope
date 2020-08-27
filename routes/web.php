@@ -14,19 +14,7 @@ use App\Product;
 */
 
 Route::get('/', function () {
-
-    /* name
-    slug
-    category_id
-    short_description
-    description
-    specifications
-    extra_info
-    status
-    active
-    main_slider */
-
-    return view('welcome');
+    return view('shop.index');
 });
 
 Auth::routes();
